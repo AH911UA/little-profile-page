@@ -1,0 +1,11 @@
+.post 
+{
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.post .postTrigger 
+{
+    position: absolute;
+    right: 2rem;
+}

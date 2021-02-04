@@ -1,0 +1,22 @@
+#card
+{
+    border: none;
+    width: 250px;
+    color: #eee;
+    background-color: #212121;
+    transition: all  0.2s ease-in-out;
+}
+.card:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#card .card-title
+{
+    border-bottom: 1px solid #eee;
+    
+}
+#card:first-child p
+{
+    text-align: end;
+}

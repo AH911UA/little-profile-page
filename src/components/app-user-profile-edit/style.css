@@ -1,0 +1,22 @@
+.editPage
+{
+    background-color: #F5F5F5;
+    padding: 1rem;
+}
+
+section 
+{
+    position: relative;
+    margin-bottom: 2rem;     
+}
+
+section Button
+{
+    position: absolute;
+    right: 0; 
+}
+
+.obj
+{
+    width: 100%;
+}

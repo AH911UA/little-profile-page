@@ -1,0 +1,31 @@
+.containerAva
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#ava
+{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    
+}
+
+.personPhoto {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin: auto;
+}
+
+.personPhoto:hover::before
+{
+  position: absolute;
+  content: '+';
+  width: 50px;
+  height: 50px;
+  color: aliceblue;
+}
